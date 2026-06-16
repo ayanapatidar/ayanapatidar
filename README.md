@@ -21,7 +21,7 @@ a statistician and software engineer with a probabilist's mindset and a passion 
 ## projects
 
 ### ⚽ [world-cup-rag](https://github.com/ayanapatidar/world-cup-rag) &nbsp; _(in progress)_
-local, zero-cost RAG pipeline that answers rich natural-language questions about 2026 World Cup matches with conext from match facts, journalist reactions, and historical documentation. aims to help a layman understand the narrative that surrounds the beautiful game--- yes, that goal was impressive, but what does it _mean_ in the context of this player, and this team, and this match. 
+local, zero-cost RAG pipeline that answers rich natural-language questions about 2026 World Cup matches with context from match facts, journalist reactions, and historical documentation. aims to help a layman understand the narrative that surrounds the beautiful game--- yes, that goal was impressive, but what does it _mean_ in the context of this player, and this team, and this match. 
 
 - multi-collection ChromaDB vector store with custom sentence-transformers embedding wrapper (384-dim, Q&A-tuned)
 - modular ingest layer scraping BBC Sport, The Guardian, Wikipedia, and football-data.org API with automatic post-match polling
