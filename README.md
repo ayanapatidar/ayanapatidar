@@ -51,7 +51,7 @@ real-time sports stats bot with async database interactions and containerized de
 
 ## outside the terminal
  
-**films:** obsessive Letterboxd user. i apparently have a statistically significant bias toward 1970s european cinema, and also al pacino. i mean, can you blame me? have you seen al pacino's eyes?. [find me on Letterboxd](https://letterboxd.com/taohun)
+**films:** obsessive Letterboxd user. i apparently have a statistically significant bias toward 1970s european cinema, and also al pacino. i mean, can you blame me? have you seen al pacino's eyes? [find me on Letterboxd](https://letterboxd.com/taohun)!
 
 **football:** the reason the discord bot exists. passionate about football (the real kind). fc barcelona is my special princess and i will love her forever. 
 
