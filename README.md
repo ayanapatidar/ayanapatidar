@@ -1,4 +1,4 @@
-## hi, i'm ayana _!_ ✨🌊
+## hi, i'm ayana _!_ 🌊
 
 **Stats + CS @ UIUC · statistician · data scientist · ml engineer**
 
