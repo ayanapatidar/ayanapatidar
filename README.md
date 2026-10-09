@@ -2,7 +2,7 @@
 
 **Stats + CS @ UIUC · statistician · data scientist · ml engineer**
 
-a statistician and software engineer with a probabilist's mindset and a passion for building systems that are rigorous, honest, and actually useful. i build data pipelines, ML-powered tools, and have been experimenting with RAG systems! currently finishing a **World Cup RAG pipeline** and looking for data/ML engineering roles. 
+a statistician and software engineer with a probabilist's mindset and a passion for building systems that are rigorous and honest! i build data pipelines, ML-powered tools, and have been experimenting with RAG systems. just wrapped up a **World Cup RAG pipeline** and looking for data/ML engineering roles. 
 
 ---
 
@@ -21,7 +21,7 @@ a statistician and software engineer with a probabilist's mindset and a passion 
 ## projects
 
 ### ⚽ [world-cup-rag](https://github.com/ayanapatidar/world-cup-rag) &nbsp; _(in progress)_
-local, zero-cost RAG pipeline that answers rich natural-language questions about 2026 World Cup matches with context from match facts, journalist reactions, and historical documentation. aims to help a layman understand the narrative that surrounds the beautiful game--- yes, that goal was impressive, but what does it _mean_ in the context of this player, and this team, and this match. 
+local, zero-cost RAG pipeline that answers natural-language questions about 2026 World Cup matches with context from match facts, journalist reactions, and historical documentation. aims to help a layman understand the narrative that surrounds the beautiful game--- yes, that goal was impressive, but what does it _mean_ in the context of this player, and this team, and this match. 
 
 - multi-collection ChromaDB vector store with custom sentence-transformers embedding wrapper (384-dim, Q&A-tuned)
 - modular ingest layer using The Guardian Open Platform API, Wikipedia, and football-data.org API with automatic post-match polling
@@ -30,7 +30,7 @@ local, zero-cost RAG pipeline that answers rich natural-language questions about
 `Python` `ChromaDB` `sentence-transformers` `Ollama` `Mistral` `RAG`
 
 ### 🎬 [ayana-films](https://github.com/ayanapatidar/ayana-films)
-a statistician's approach to taste modeling--- built on 586 personal Letterboxd entries and the MovieLens 25M dataset. the recommender and sentiment analysis aim to model my affinity towards genre and films; expect to find some drama and horror heavy picks in here, along with some guilty pleasures, but we don't have to talk about those. 
+taste modeling! my favorite: literally. built on 586 personal Letterboxd entries and the MovieLens 25M dataset. the recommender and sentiment analysis aim to model my affinity towards genre and films; expect to find some drama and horror heavy picks in here, along with some guilty pleasures, but we don't have to talk about those. 
 
 - ETL pipeline ingesting diary entries into PostgreSQL via Supabase, enriched with TMDB API metadata
 - weighted SVD recommender incorporating contextual signals (rewatches, Criterion watches, theater viewings) to produce a personalized taste vector; discovered statistically meaningful rating gaps by era and language through exploratory analysis
@@ -51,9 +51,9 @@ real-time sports stats bot with async database interactions and containerized de
 
 ## outside the terminal
  
-**films:** obsessive Letterboxd user. i apparently have a statistically significant bias toward 1970s european cinema, and also al pacino. i mean, can you blame me? have you seen al pacino's eyes? [find me on Letterboxd](https://letterboxd.com/taohun)!
+**films:** obsessive Letterboxd user. i apparently have a statistically significant bias toward 1970s european cinema, and also al pacino. look, man. it's al pacino. [find me on Letterboxd](https://letterboxd.com/taohun)!
 
-**football:** the reason the discord bot exists. passionate about football (the real kind). fc barcelona is my special princess and i will love her forever. 
+**football:** i 🩵 football (the real kind). fc barcelona is my special princess and i will love her forever. 
 
 **music:** i play guitar, mostly fingerpicking. currently working through tabbing out all of sufjan stevens' michigan album. 
 
