@@ -2,7 +2,7 @@
 
 **Stats + CS @ UIUC · statistician · data scientist · ml engineer**
 
-a statistician and software engineer with a probabilist's mindset and a passion for building systems that are rigorous and honest! i build data pipelines, ML-powered tools, and have been experimenting with RAG systems.**
+a statistician and software engineer with a probabilist's mindset and a passion for building systems that are rigorous and honest! i build data pipelines, ML-powered tools, and have been experimenting with RAG systems.
 ---
 
 ## what I work with
