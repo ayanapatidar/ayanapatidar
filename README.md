@@ -1,8 +1,8 @@
 ## hi, i'm ayana _!_ 🌊
 
-**Stats + CS @ UIUC · statistician · data scientist · ml engineer**
+**Stats + CS @ UIUC**
 
-a statistician and software engineer with a probabilist's mindset and a passion for building systems that are rigorous and honest! i build data pipelines, ML-powered tools, and have been experimenting with RAG systems.
+probabilist and swe!
 
 ---
 
