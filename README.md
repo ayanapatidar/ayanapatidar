@@ -20,6 +20,16 @@ a statistician and software engineer with a probabilist's mindset and a passion 
 
 ## projects
 
+### 🏄🏽 [pagerank-mixing](https://github.com/ayanapatidar/pagerank-mixing)
+how fast does the random surfer forget where it started? written out proof for the fact that PageRank's distance to the stationary distribution shrinks by at least the damping factor α at every step. the proof was written out and then tested on a real web graph (281,903 stanford.edu pages and 2.3M links). the bound very easily holds, and we got a few fun insights from how close the chain runs to it. from a single page, the bound is almost exact, but a uniform start performs about 200x better.
+
+- power iteration on a sparse transition matrix, tested against networkx and a closed-form check on the minimum of π
+- total variation distance tracked across 10 orders of magnitude for five damping factors
+- strongly connected component analysis finding 2,231 closed classes that hold 30% of the pages and a third of the stationary mass
+- traced the uniform start's leftover distance entirely to periodic classes
+
+`Python` `NumPy` `SciPy` `pandas` `matplotlib` `Markov chains` `PageRank`
+
 ### ⚽ [world-cup-rag](https://github.com/ayanapatidar/world-cup-rag) &nbsp;
 local, zero-cost RAG pipeline that answers natural-language questions about 2026 World Cup matches with context from match facts, journalist reactions, and historical documentation. aims to help a layman understand the narrative that surrounds the beautiful game--- yes, that goal was impressive, but what does it _mean_ in the context of this player, and this team, and this match. 
 
