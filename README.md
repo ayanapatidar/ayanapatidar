@@ -20,7 +20,7 @@ probabilist and swe!
 
 ## projects
 
-### 🏄🏽 [pagerank-mixing](https://github.com/ayanapatidar/pagerank-mixing)
+### [pagerank-mixing](https://github.com/ayanapatidar/pagerank-mixing)
 how fast does the random surfer forget where it started? written out proof for the fact that PageRank's distance to the stationary distribution shrinks by at least the damping factor α at every step. the proof was written out and then tested on a real web graph (281,903 stanford.edu pages and 2.3M links). the bound very easily holds, and we got a few fun insights from how close the chain runs to it. from a single page, the bound is almost exact, but a uniform start performs about 200x better.
 
 - power iteration on a sparse transition matrix, tested against networkx and a closed-form check on the minimum of π
@@ -30,7 +30,7 @@ how fast does the random surfer forget where it started? written out proof for t
 
 `Python` `NumPy` `SciPy` `pandas` `matplotlib` `Markov chains` `PageRank`
 
-### ⚽ [world-cup-rag](https://github.com/ayanapatidar/world-cup-rag) &nbsp;
+## [world-cup-rag](https://github.com/ayanapatidar/world-cup-rag) &nbsp;
 local, zero-cost RAG pipeline that answers natural-language questions about 2026 World Cup matches with context from match facts, journalist reactions, and historical documentation. aims to help a layman understand the narrative that surrounds the beautiful game--- yes, that goal was impressive, but what does it _mean_ in the context of this player, and this team, and this match. 
 
 - multi-collection ChromaDB vector store with custom sentence-transformers embedding wrapper (384-dim, Q&A-tuned)
@@ -39,7 +39,7 @@ local, zero-cost RAG pipeline that answers natural-language questions about 2026
 
 `Python` `ChromaDB` `sentence-transformers` `Ollama` `Mistral` `RAG`
 
-### 🎬 [ayana-films](https://github.com/ayanapatidar/ayana-films)
+### [ayana-films](https://github.com/ayanapatidar/ayana-films)
 taste modeling! my favorite: literally. built on 586 personal Letterboxd entries and the MovieLens 25M dataset. the recommender and sentiment analysis aim to model my affinity towards genre and films; expect to find some drama and horror heavy picks in here, along with some guilty pleasures, but we don't have to talk about those. 
 
 - ETL pipeline ingesting diary entries into PostgreSQL via Supabase, enriched with TMDB API metadata
@@ -49,7 +49,7 @@ taste modeling! my favorite: literally. built on 586 personal Letterboxd entries
 
 `Python` `PostgreSQL` `pgvector` `scikit-learn` `sentence-transformers` `Supabase`
 
- ### 🏟️ [DiscordSportsBot](https://github.com/Happy-Duck/DiscordSportsBot)
+ ### [DiscordSportsBot](https://github.com/Happy-Duck/DiscordSportsBot)
 real-time sports stats bot with async database interactions and containerized deployment, worked on in a team setting. 
 
 - external data integration wrapping TheSportsDB and API-Football for real-time player and team stats via slash commands
